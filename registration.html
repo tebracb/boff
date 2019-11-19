@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Brooklyn Outdoor Film Festival</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Sans:400,600|Finger+Paint"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar_custom navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" class="main_logo" alt="B.O.F.F logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="info.html">Info</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Program
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="program.html#day1">5th August</a>
+            <a class="dropdown-item" href="program.html#day2">6th August</a>
+            <a class="dropdown-item" href="program.html#day3">7th August</a>
+            <a class="dropdown-item" href="program.html#day4">8th August</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="program.html">Program overview</a>
+          </div>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="registration.html">Pre-registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="volunteers.html">Volunteering</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <!-- REGISTRATION FORM -->
+
+  <div class="container text-left">
+
+    <h1>Register here for your chosen day(s)!</h1>
+
+    <form>
+      <div class="form-group row mt-3">
+        <label class="col-sm-2 col-form-label">Name</label>
+        <div class="col-sm-5">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col-sm-5">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3" placeholder="mail@example.com">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Age</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" placeholder="age">
+        </div>
+      </div>
+
+
+      <div class="form-group row">
+        <label class="col-sm-2">Days you want to register:</label>
+        <div class="container col-sm-10">
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">Fun for the Family - 5th of August
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">The Classics - 6th of August
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">Documentaries - 7th of August
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">International Selection - 8th of August
+            </label>
+          </div>
+          <button type="submit" class="btn btn-info mt-2">Register me</button>
+
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <br>
+
+  <!-- FOOTER -->
+
+  <section id="footer">
+    <div class="row">
+      <div class="col-sm-12 mt-3">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="https://plus.google.com/discover"><i
+                class="fab fa-google-plus-g"></i></a></li>
+          <li class="list-inline-item"><a href="https://outlook.live.com/owa/" target="_blank"><i
+                class="fas fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      </hr>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 mt-2 text-center text-white">
+
+        <p class="h6 mb-3">&copy All rights Reserved.<a class="boff ml-2" href="home.html">B.O.F.F</a></p>
+      </div>
+      </hr>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="program.js"></script>
+</body>
+
+</html>
